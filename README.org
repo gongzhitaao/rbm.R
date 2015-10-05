@@ -1,0 +1,17 @@
+#+TITLE: Restricted Boltzmann Machine
+
+* Implemented Algorithm
+
+  - Contractive Divergence (CD)
+  - Presistent Contractive Divergence (PCD)
+
+
+* Updating Function
+
+  Currently, only the simple update rule is used, i.e.,
+
+  #+BEGIN_SRC R
+param <- param + lr * param.delta
+  #+END_SRC
+
+  Where =lr= is learning rate.
